@@ -1,5 +1,4 @@
 #includ <stdio.h>
-
 /**
  *main -prints a text
  *
