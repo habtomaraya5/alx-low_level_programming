@@ -7,11 +7,11 @@
 /**
  * main - program start point
  *
- * Description: main function 
+ * Description: main function
  * this uses mod oprator
  * Return: is always zero
  */
-int main(void) 
+int main(void)
 {
 int n;
 srand(time(0));
