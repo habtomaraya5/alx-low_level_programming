@@ -1,9 +1,20 @@
-All your files should end with a new line
+#ifndef HOLBERTON_H_INCLUDED
 
-A README.md file, at the root of the folder of the project is mandatory
-  
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-  
-You are not allowed to use global variables
-  
-No more than 5 functions per file
+#ifndef HOLBERTON_H_INCLUDED
+
+
+int _putchar(char);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalphabet(int c);
+int print_sight(int n);
+int _abs(int);
+int print_last_digit(int);
+void jack_bauer(void);
+void times_table(void);
+int add(int a, int b);
+void print_to_98(int n);
+void print_times_table(void);
+void num(int r, int n);
+#endif
