@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * rev_string - check the code
+ *@s:parameter or member 's'
  * Return: Always 0.
  */
 void rev_string(char *s)
