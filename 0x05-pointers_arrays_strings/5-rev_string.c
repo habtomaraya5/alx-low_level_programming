@@ -5,7 +5,9 @@
  *
  * Return: Always 0.
  */
-void rev_string(char *s)
+void(main)
+{
+rev_string(char *s)
 {
 char rev = s[0];
 int counter = 0;
@@ -18,5 +20,6 @@ counter--;
 rev = s[i];
 s[i] = s[counter];
 s[counter] = rev;
+}
 }
 }
