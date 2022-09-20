@@ -1,12 +1,13 @@
 #includ "main.h"
 #include <string.h>
 
+
 /**
-* puts2 -> puts function
+*puts_half(char *str) -> puts function
 *
 * @str: str parametr
 */
-void Puts2(char *str)
+void  puts_half(char *str)
 {
 int len, i;
 len = strlen(str);
