@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* str_concat - concatnets two strings for those destinations 
+* str_concat - concatnets two strings for those destinations
 * @s1: destination
 * @s2: source
 * Return: destination
