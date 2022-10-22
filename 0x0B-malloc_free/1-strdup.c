@@ -17,7 +17,7 @@ for (i = 0; str[i]; i++)
 count++;
 }
 count += 1;
-dest = malloc(count * sizeof(char));
+dest = malloc(count *sizeof(char));
 if (dest == NULL)
 {
 return (NULL);
