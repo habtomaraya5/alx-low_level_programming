@@ -1,8 +1,3 @@
-/**
- * File: 3-print_all.c
- * 
- */
-
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>

@@ -1,8 +1,3 @@
-/*
- * File: 0-sum_them_all.c
- * Auth: Habtom Araya
- */
-
 #include "variadic_functions.h"
 #include <stdarg.h>
 
