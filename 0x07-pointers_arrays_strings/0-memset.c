@@ -1,7 +1,3 @@
-/*
- * File: 0-memset.c
- * Auth: not
- */
 #include "main.h"
 /**
  * _memset - Fills the first n bytes of the memory area

@@ -1,9 +1,4 @@
-/**
- * File: 100-set_string.c
- * Auth: EASY
- */
 #include "main.h"
-
 /**
 * set_string - Sets the value of a pointer to a char.
  * @s: The pointer.

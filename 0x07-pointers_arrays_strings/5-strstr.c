@@ -1,7 +1,3 @@
-/**
- * File: 5-strstr.c
- * Auth: Someone who is kind
- */
 #include "main.h"
 /**
  * _strstr - Locates a substring.

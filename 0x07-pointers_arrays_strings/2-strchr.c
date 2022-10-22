@@ -1,7 +1,3 @@
-/*
- * File: 2-strchr.c
- * Auth: learner sam
- */
 #include "main.h"
 /**
  * _strchr - Locates a character in a string.

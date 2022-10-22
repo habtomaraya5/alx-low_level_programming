@@ -1,7 +1,3 @@
-/**
- * File: 8-print_diagsums.c
- * Auth: voulnter
- */
 #include "main.h"
 #include <stdio.h>
 /**

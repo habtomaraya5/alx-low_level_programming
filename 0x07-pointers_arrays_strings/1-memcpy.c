@@ -1,7 +1,3 @@
-/*
- * File: 1-memcpy.c
- * Auth: sam tech
- */
 #include "main.h"
 /**
  * _memcpy - Copies @n bytes from the memory area pointed
