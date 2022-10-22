@@ -1,31 +1,31 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *_strdup -  str copy to dynamic arrays.
- *@str: sources string array for all.
- *Description: function  copy to dynamic arrays.
- *Return: will return new created char array.
+ * _strdup - malloc new str and copy *str into it
+ * @str: the string we copy
+ * Return: pointer to new string
  */
 char *_strdup(char *str)
 {
-int i = 0, size = 0;
+unsigned int i;
+int count = 0;
 char *dest;
-while (*(str + size) != '\0')
+if (str == NULL)
+return (NULL);
+for (i = 0; str[i]; i++)
 {
-size++;
+count++;
 }
-dest = malloc(sizeof(char) * size + 1);
-while (i < size)
-{
+count += 1;
+dest = malloc(count * sizeof(char));
 if (dest == NULL)
 {
-printf("failed to allocate memory\n");
 return (NULL);
 }
-*(dest + i) = *(str + i);
-i++;
+for (i = 0; str[i] != '\0'; i++)
+{
+dest[i] = str[i];
 }
-*(dest + i) = '\0';
+dest[i] = str[i];
 return (dest);
 }
